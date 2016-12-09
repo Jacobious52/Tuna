@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Tuna</title>
+
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Roboto:300,400,500,700">
+        <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/icon?family=Material+Icons">
+
+        <!--<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-material-design.min.css">
+        <link rel="stylesheet" type="text/css" href="css/ripples.min.css">-->
+
+        <link rel="stylesheet" type="text/css" href="css/bootstrap-darkly.min.css">
+
+        <script src="src/events.js"></script>
+    </head>
+    <body>
+        <nav class="navbar navbar-info">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                        <span class="sr-only">Toggle Navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="#">Tuna</a>
+                </div>
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li><a href="http://treko.me">Reset</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="row">
+            <div class="col-md-9 col-md-push-3">
+                <div id="varpanel" class="panel panel-default fill" style="margin-right: 15px;">
+                    <div class="panel-body">
+                        <h2>Variables</h2>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-3 col-md-pull-9">
+                <div id="testpanel" class="panel panel-default fill" style="overflow-y: auto; height: 450px; margin-left: 15px;">
+                    <div class="panel-body">
+                        <h2>Tests</h2>
+                        <div class="progress">
+                          <div id="passed" class="progress-bar progress-bar-success" style="width: 0%"></div>
+                          <div id="failed" class="progress-bar progress-bar-danger" style="width: 0%"></div>
+                        </div>
+                        <ul id="tests" class="list-group"></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div>
+            <div class="panel panel-default fill" style="overflow-y: auto; margin-left: 15px; margin-right: 15px; height: 300px;">
+                <div class="panel-body">
+                    <h2>Log</h2>
+                    <ul id="log" class="list-group"></ul>
+                </div>
+            </div>
+        <div>
+    </body>
+</html>
